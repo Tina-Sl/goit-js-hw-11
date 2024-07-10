@@ -30,7 +30,7 @@ form.addEventListener('submit', evt => {
           backgroundColor: '#ef4040',
           title: '',
           theme: 'dark',
-          iconUrl: './img/bi_x-octagon.png',
+          iconUrl: 'img/octagon.png',
           message:
             'Sorry, there are no images matching your search query. Please try again!',
           maxWidth: '350px',
