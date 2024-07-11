@@ -12,6 +12,7 @@ export default function getImages(str) {
     image_type: 'photo',
     orientation: 'horizontal',
     safesearch: true,
+    per_page: 9,
   });
 
   return fetch(`${BASE_URL}?${searchParams}`).then(response => {
